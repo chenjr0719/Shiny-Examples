@@ -2,7 +2,7 @@
 
 A Simple Implement of **Standard Statistics Test**, **Clustering**, **Classification** by using **Shiny**.
 
-Live Demo: http://chenjr-jacob.idv.tw:3838/Shiny_Examples/
+Live Demo: http://chenjr-jacob.idv.tw:3838/Shiny-Examples/
 
 ## What is Shiny?
 
