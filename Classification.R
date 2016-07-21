@@ -1,13 +1,13 @@
-library(rpart)
-library(randomForest)
-library(kknn)
-library(e1071)
-library(nnet)
+pkgLoad("rpart")
+pkgLoad("randomForest")
+pkgLoad("kknn")
+pkgLoad("e1071")
+pkgLoad("nnet")
 
-library(ggplot2)
-library(gridExtra)
-library(mlearning)
-library(caret)
+pkgLoad("ggplot2")
+pkgLoad("gridExtra")
+pkgLoad("mlearning")
+pkgLoad("caret")
 
 ##############################################################################################
 
