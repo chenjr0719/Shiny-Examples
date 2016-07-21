@@ -67,19 +67,11 @@ sudo docker run -p 3838:3838 -v $YOUR_APP_DIR:/srv/shiny-server/ -v $YOUR_LOG_DI
 
 After container is ready, you have to install requirement packages of **Shiny-Examples**
 
-Run the command to enter container:
+Run the command to install requirement packages automaticlly:
 
 ```s
-sudo docker exec -it $CONYAINER_ID bash
+sudo docker exec -it $CONYAINER_ID Rscript /srv/shiny-server/Shiny-Examples/PkgLoader.R
 ```
 
-And run next command in container:
-
-```s
-Rscript /srv/shiny-server/Shiny-Examples/PkdLoad.R
-```
-
-This script will install requirement packages automaticlly.
-
-And now, you can check http://localhost:3838/Shiny-Examples to see the result.
+When installation is done, you can check http://localhost:3838/Shiny-Examples to see the result.
 
