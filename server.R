@@ -1,4 +1,3 @@
-source("PkgLoader.R")
 source("GetDatasetList.R")
 source("GetColumnsType.R")
 source("DataSummary.R")

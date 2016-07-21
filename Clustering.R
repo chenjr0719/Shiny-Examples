@@ -1,7 +1,7 @@
-pkgLoad("stats")
-pkgLoad("mclust")
-pkgLoad("dbscan")
-pkgLoad("kknn")
+library(stats)
+library(mclust)
+library(dbscan)
+library(kknn)
 
 ##############################################################################################
 
