@@ -55,4 +55,4 @@ If you want to use this example, you have to build a shiny server first.
 
 Thanks for **Docker**, you can build shiny server in a simple way.
 
-You can reference my posts: http://chenjr-jacob.no-ip.org/2016/04/19/shiny-using-r-to-publish-your-own-data-analysis-tools/
+You can reference my posts: http://chenjr-jacob.idv.tw/2016/04/19/shiny-using-r-to-publish-your-own-data-analysis-tools/

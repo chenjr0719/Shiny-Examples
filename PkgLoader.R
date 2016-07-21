@@ -13,3 +13,22 @@ pkgLoad <- function(package) {
     library(package, character.only=TRUE)
 }
 
+pkgLoad("rpart")
+pkgLoad("randomForest")
+pkgLoad("kknn")
+pkgLoad("e1071")
+pkgLoad("nnet")
+
+pkgLoad("ggplot2")
+pkgLoad("gridExtra")
+pkgLoad("mlearning")
+pkgLoad("caret")
+
+pkgLoad("stats")
+pkgLoad("mclust")
+pkgLoad("dbscan")
+pkgLoad("kknn")
+
+pkgLoad("car")
+
+pkgLoad("GGally")
