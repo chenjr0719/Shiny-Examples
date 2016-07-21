@@ -1,8 +1,3 @@
-pkgLoad("stats")
-pkgLoad("mclust")
-pkgLoad("dbscan")
-pkgLoad("kknn")
-
 ##############################################################################################
 
 clusteringKmeans <- function(data, k = 2) {

@@ -1,14 +1,3 @@
-pkgLoad("rpart")
-pkgLoad("randomForest")
-pkgLoad("kknn")
-pkgLoad("e1071")
-pkgLoad("nnet")
-
-pkgLoad("ggplot2")
-pkgLoad("gridExtra")
-pkgLoad("mlearning")
-pkgLoad("caret")
-
 ##############################################################################################
 
 classificationDecisionTree <- function(data, class = names(data)[length(names(data))]) {

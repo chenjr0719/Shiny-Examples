@@ -603,6 +603,7 @@ shinyServer(
 			if(!is.null(classification_result$model)) {
 				switch(input$classification_method,
 					"Decision Tree" = print(summary(classification_result$model)),
+                    "Random Forest" = print(summary(classification_result$model)),
 					"EM" = print(classification_result$model),
 					"K-Nearest Neighbors" = print(classification_result$model),
 					"Support Vector Machine" = print(summary(classification_result$model)),

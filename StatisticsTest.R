@@ -1,5 +1,3 @@
-pkgLoad("car")
-
 ##############################################################################################
 
 statisticsRegression <- function(data, response = NULL) {

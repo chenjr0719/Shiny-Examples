@@ -1,6 +1,3 @@
-pkgLoad("ggplot2")
-pkgLoad("GGally")
-
 ##############################################################################################
 
 plotPairs <- function(data, class = NULL, non_numeric = FALSE) {

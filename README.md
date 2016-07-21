@@ -2,7 +2,7 @@
 
 A Simple Implement of **Standard Statistics Test**, **Clustering**, **Classification** by using **Shiny**.
 
-Live Demo: http://chenjr-jacob.no-ip.org:3838/Shiny_Examples/
+Live Demo: http://chenjr-jacob.idv.tw:3838/Shiny_Examples/
 
 ## What is Shiny?
 
@@ -56,3 +56,30 @@ If you want to use this example, you have to build a shiny server first.
 Thanks for **Docker**, you can build shiny server in a simple way.
 
 You can reference my posts: http://chenjr-jacob.idv.tw/2016/04/19/shiny-using-r-to-publish-your-own-data-analysis-tools/
+
+Or execute following commands:
+
+```s
+sudo docker pull rocker/shiny
+
+sudo docker run -p 3838:3838 -v $YOUR_APP_DIR:/srv/shiny-server/ -v $YOUR_LOG_DIR:/var/log/ -d rocker/shiny
+```
+
+After container is ready, you have to install requirement packages of **Shiny-Examples**
+
+Run the command to enter container:
+
+```s
+sudo docker exec -it $CONYAINER_ID bash
+```
+
+And run next command in container:
+
+```s
+Rscript /srv/shiny-server/Shiny-Examples/PkdLoad.R
+```
+
+This script will install requirement packages automaticlly.
+
+And now, you can check http://localhost:3838/Shiny-Examples to see the result.
+
