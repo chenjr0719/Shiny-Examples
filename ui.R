@@ -1,6 +1,6 @@
 shinyUI(
 	navbarPage(
-		HTML("<a href=\"http://chenjr-jacob.no-ip.org:3838/Test\">Jacob's Shiny</a>"),
+		HTML("<a href=\"http://chenjr-jacob.idv.tw:3838/Shiny-Examples\">Jacob's Shiny</a>"),
 		inverse = TRUE,
 		windowTitle = "Jacob's Shiny",
 		header = fluidRow(
