@@ -1,6 +1,6 @@
 shinyUI(
 	navbarPage(
-		HTML("<a href=\"http://chenjr-jacob.idv.tw:3838/Shiny-Examples\">Jacob's Shiny</a>"),
+		HTML("<a href=\"https://chenjr-jacob.idv.tw/shiny-example/\">Jacob's Shiny</a>"),
 		inverse = TRUE,
 		windowTitle = "Jacob's Shiny",
 		header = fluidRow(
@@ -17,7 +17,7 @@ shinyUI(
 
                 </script>
 				")),
-				column(2, HTML("<a href=\"http://chenjr-jacob.idv.tw/\">Back to Wordpress</a>"))
+				column(2, HTML("<a href=\"https://chenjr-jacob.idv.tw/\">Back to Wordpress</a>"))
 				),
 		###################################################################################################
 		#Dataset
